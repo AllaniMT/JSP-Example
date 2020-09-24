@@ -1,0 +1,19 @@
+<h1>Add Student</h1>
+<form action="addStudent.jsp" method="post">
+    <label for="name">First name:</label><br />
+    <input type="text" name="name" /><br />
+    <label for="email">E-Mail:</label><br />
+    <input type="email" name="email" /><br />
+    <label for="gender">Gender:</label><br />
+    <input type="radio" name="gender" value="male" />Male <input type="radio" name="gender" value="female" />Female <label for="country">Country:</label><br />
+    <select type="text" name="country">
+        <option value="tunisia">Tunisia</option>
+        <option value="germany">Germany</option>
+        <option value="usa">USA</option>
+    </select>
+    <label for="password">Password:</label><br />
+    <input type="password" name="password" /><br />
+    <br />
+    <input type="submit" value="Add Student" />
+</form>
+<a class="btn btn-primary btn-lg" href="viewStudents.jsp" role="button">View students</a>
